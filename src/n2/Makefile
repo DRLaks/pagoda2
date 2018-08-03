@@ -1,3 +1,10 @@
+CC=/usr/local/clang4/bin/clang
+CXX=/usr/local/clang4/bin/clang++
+CXX11=/usr/local/clang4/bin/clang++
+CXX14=/usr/local/clang4/bin/clang++
+CXX17=/usr/local/clang4/bin/clang++
+CXX1X=/usr/local/clang4/bin/clang++
+LDFLAGS=-L/usr/local/clang4/lib
 CXX ?= g++
 PKG_CXXFLAGS = -O3 -march=native -std=c++11 -pthread -fPIC -fopenmp
 PKG_CXXFLAGS += -I"./include"
